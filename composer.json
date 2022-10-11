@@ -27,7 +27,7 @@
   "prefer-stable": true,
   "repositories": [],
   "require": {
-    "php": "^7.2|^7.3|^7.4",
+    "php": "^8.1",
     "dreamfactory/df-admin-app": "~4.12.0",
     "dreamfactory/df-api-docs-ui": "~3.0.2",
     "dreamfactory/df-apidoc": "~0.7.2",
@@ -53,7 +53,7 @@
     "dreamfactory/df-system": "~0.5.4",
     "dreamfactory/df-user": "~0.16.2",
     "fideloper/proxy": "^4.0",
-    "laravel/framework": "^6.13",
+    "laravel/framework": "^6.20",
     "laravel/helpers": "^1.1",
     "laravel/tinker": "^1.0",
     "predis/predis": "~1.0",
@@ -61,13 +61,13 @@
   },
   "require-dev": {
     "barryvdh/laravel-ide-helper": "~2.1",
-    "fzaninotto/faker": "^1.4",
+    "fakerphp/faker": "^1.17.0",
     "laracasts/generators": "~1.0",
     "laracasts/testdummy": "~2.0",
-    "laravel/homestead": "6.6.0",
+    "laravel/homestead": "^11.0.0",
     "mockery/mockery": "^1.0",
     "nunomaduro/collision": "^3.0",
-    "phpunit/phpunit": "~7.0",
+    "phpunit/phpunit": "^9.3",
     "facade/ignition": "^1.4"
   },
   "autoload": {
@@ -105,7 +105,7 @@
   },
   "config": {
     "platform": {
-      "php": "7.4"
+      "php": "8.1"
     },
     "preferred-install": "dist",
     "sort-packages": true,
