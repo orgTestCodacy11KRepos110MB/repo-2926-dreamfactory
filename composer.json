@@ -30,13 +30,6 @@
       "type": "path",
       "url": "../df-core",
       "canonical": false
-    }
-  ],
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../df-core",
-      "canonical": false
     },
     {
       "type": "path",
