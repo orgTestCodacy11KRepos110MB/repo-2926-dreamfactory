@@ -32,6 +32,43 @@
       "canonical": false
     }
   ],
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../df-core",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-git",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-oauth",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-email",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-azure",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-graphql",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-mongo-logs",
+      "canonical": false
+    }
+  ],
   "require": {
     "php": "^8.1",
     "dreamfactory/df-admin-app": "~4.12.0",
