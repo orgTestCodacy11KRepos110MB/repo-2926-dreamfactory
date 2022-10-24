@@ -27,43 +27,75 @@
   "prefer-stable": true,
   "repositories": [
     {
+      "type": "vcs",
+      "url": "https://github.com/alexanderko/df-core.git"
+    },
+    {
       "type": "path",
-      "url": "../df-core",
+      "url": "../df-git",
       "canonical": false
     },
     {
       "type": "path",
-      "url": "../df-system",
+      "url": "../df-oauth",
       "canonical": false
     },
     {
       "type": "path",
-      "url": "../df-user",
+      "url": "../df-email",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-azure",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-graphql",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-mongo-logs",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-aws",
+      "canonical": false
+    },
+    {
+      "type": "path",
+      "url": "../df-file",
       "canonical": false
     }
   ],
   "require": {
     "php": "^8.1",
-    "dreamfactory/df-api-docs-ui": "~3.0.2",
-    "dreamfactory/df-core": "dev-php81 as 0.25.3",
-    "dreamfactory/df-system": "dev-php81 as 0.5.4",
-    "dreamfactory/df-user": "dev-php81 as 0.16.2",
-    "fideloper/proxy": "^4.0",
-    "laravel/framework": "^9.0",
-    "laravel/helpers": "^1.1",
-    "laravel/tinker": "^2.7.0",
-    "predis/predis": "~1.0",
-    "symfony/css-selector": "~5.4"
+    "dreamfactory/df-admin-app": "~4.12.0",
+    "dreamfactory/df-apidoc": "~0.7.2",
+    "dreamfactory/df-aws": "~0.16.3",
+    "dreamfactory/df-azure": "dev-php81 as 0.16.2",
+    "dreamfactory/df-cache": "~0.12.2",
+    "dreamfactory/df-cassandra": "~0.13.1",
+    "dreamfactory/df-couchbase": "~0.11.1",
+    "dreamfactory/df-couchdb": "~0.16.1",
+    "dreamfactory/df-email": "dev-php81 as 0.10.2",
+    "dreamfactory/df-exporter-prometheus": "~1.0.5",
+    "dreamfactory/df-file": "~0.7.4",
+    "dreamfactory/df-filemanager-app": "~0.3.2",
+    "dreamfactory/df-firebird": "~0.8.1",
+    "dreamfactory/df-git": "dev-php81 as 0.6.3",
+    "dreamfactory/df-graphql": "dev-php81 as 0.4.0",
+    "dreamfactory/df-mongo-logs": "dev-php81 as 1.1.2",
+    "dreamfactory/df-oauth": "dev-php81 as 0.16.1",
+    "dreamfactory/df-rackspace": "~0.15.1",
+    "dreamfactory/df-rws": "~0.15.3",
+    "dreamfactory/df-sqldb": "~0.17.5",
   },
   "require-dev": {
-    "barryvdh/laravel-ide-helper": "~2.1",
-    "fakerphp/faker": "^1.9.2",
-    "laracasts/generators": "~2.0.1",
-    "laravel/homestead": "^13.2.0",
-    "mockery/mockery": "^1.4.1",
-    "nunomaduro/collision": "^6.1",
-    "phpunit/phpunit": "^9.3",
-    "spatie/laravel-ignition": "^1.0"
+
   },
   "autoload": {
     "classmap": [
@@ -99,7 +131,9 @@
     ]
   },
   "config": {
-    "platform": {},
+    "platform": {
+      "php": "8.1"
+    },
     "preferred-install": "dist",
     "sort-packages": true,
     "optimize-autoloader": true,
