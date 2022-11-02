@@ -36,7 +36,7 @@
     "dreamfactory/df-system": "~0.5.4",
     "dreamfactory/df-user": "~0.16.2",
     "dreamfactory/df-database": "0.11.3",
-    "dreamfactory/df-sqldb": "~0.17.5",
+    "dreamfactory/df-sqldb": "dev-php81 as 0.17.5",
     "dreamfactory/df-graphql": "dev-php81 as 0.4",
     "fideloper/proxy": "^4.0",
     "laravel/framework": "^9.0",

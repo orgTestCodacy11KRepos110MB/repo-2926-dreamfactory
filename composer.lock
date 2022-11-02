@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26be30783d4126818400eb7b50fdba15",
+    "content-hash": "8c9389e912322774c94a4d96c7e305ec",
     "packages": [
         {
             "name": "brick/math",
@@ -1093,16 +1093,16 @@
         },
         {
             "name": "dreamfactory/df-sqldb",
-            "version": "0.17.5",
+            "version": "dev-php81",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-sqldb.git",
-                "reference": "c7618fb93a879d8ace330f2f9baccc474dbeec3e"
+                "reference": "e55e3722966b7f86303159bd22546f53d8db2f37"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-sqldb/zipball/c7618fb93a879d8ace330f2f9baccc474dbeec3e",
-                "reference": "c7618fb93a879d8ace330f2f9baccc474dbeec3e",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-sqldb/zipball/e55e3722966b7f86303159bd22546f53d8db2f37",
+                "reference": "e55e3722966b7f86303159bd22546f53d8db2f37",
                 "shasum": ""
             },
             "require": {
@@ -1158,7 +1158,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-sqldb",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-07-28T00:59:09+00:00"
+            "time": "2022-11-02T08:01:23+00:00"
         },
         {
             "name": "dreamfactory/df-system",
@@ -2004,16 +2004,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.37.0",
+            "version": "v9.38.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "0c9675abf6d966e834b2ebeca3319f524e07a330"
+                "reference": "abf198e443e06696af3f356b44de67c0fa516107"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/0c9675abf6d966e834b2ebeca3319f524e07a330",
-                "reference": "0c9675abf6d966e834b2ebeca3319f524e07a330",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/abf198e443e06696af3f356b44de67c0fa516107",
+                "reference": "abf198e443e06696af3f356b44de67c0fa516107",
                 "shasum": ""
             },
             "require": {
@@ -2186,7 +2186,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-10-25T15:43:46+00:00"
+            "time": "2022-11-01T14:05:55+00:00"
         },
         {
             "name": "laravel/helpers",
@@ -9893,11 +9893,18 @@
             "version": "dev-php81",
             "alias": "0.4",
             "alias_normalized": "0.4.0.0"
+        },
+        {
+            "package": "dreamfactory/df-sqldb",
+            "version": "dev-php81",
+            "alias": "0.17.5",
+            "alias_normalized": "0.17.5.0"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
         "dreamfactory/df-core": 20,
+        "dreamfactory/df-sqldb": 20,
         "dreamfactory/df-graphql": 20
     },
     "prefer-stable": true,
