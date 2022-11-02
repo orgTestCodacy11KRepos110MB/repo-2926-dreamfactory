@@ -881,12 +881,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-core.git",
-                "reference": "bfbb44562c733ac771470b5b01eba5d9c3278882"
+                "reference": "4e8a8ec4596d4507a9a9725c04ee97e83abdb51a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-core/zipball/bfbb44562c733ac771470b5b01eba5d9c3278882",
-                "reference": "bfbb44562c733ac771470b5b01eba5d9c3278882",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-core/zipball/4e8a8ec4596d4507a9a9725c04ee97e83abdb51a",
+                "reference": "4e8a8ec4596d4507a9a9725c04ee97e83abdb51a",
                 "shasum": ""
             },
             "require": {
@@ -952,7 +952,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-core",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-10-31T15:33:19+00:00"
+            "time": "2022-11-02T15:47:05+00:00"
         },
         {
             "name": "dreamfactory/df-database",
