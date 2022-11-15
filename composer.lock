@@ -1313,12 +1313,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-file.git",
-                "reference": "d87e9563d1894f1b9cc15245397dd7494dc556a4"
+                "reference": "0ac19eb4afab8f58fc505d0dcede4cfc38c9ece2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-file/zipball/d87e9563d1894f1b9cc15245397dd7494dc556a4",
-                "reference": "d87e9563d1894f1b9cc15245397dd7494dc556a4",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-file/zipball/0ac19eb4afab8f58fc505d0dcede4cfc38c9ece2",
+                "reference": "0ac19eb4afab8f58fc505d0dcede4cfc38c9ece2",
                 "shasum": ""
             },
             "require": {
@@ -1378,7 +1378,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-file",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-15T16:43:12+00:00"
+            "time": "2022-11-15T18:19:08+00:00"
         },
         {
             "name": "dreamfactory/df-graphql",
