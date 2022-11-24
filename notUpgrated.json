@@ -6,7 +6,6 @@
   "dreamfactory/df-couchdb": "~0.16.1",
   "dreamfactory/df-exporter-prometheus": "~1.0.5",
   "dreamfactory/df-filemanager-app": "~0.3.2",
-  "dreamfactory/df-mongo-logs": "dev-php81 as 1.1.2",
   "dreamfactory/df-oauth": "dev-php81 as 0.16.1",
   "dreamfactory/df-rackspace": "~0.15.1"
 }
