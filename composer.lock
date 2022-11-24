@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3239d17df241cf2e4ebc8b49efea08d0",
+    "content-hash": "d48b105eb4c9e9564529c8535bbce361",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1451,6 +1451,76 @@
             "time": "2022-11-17T07:53:34+00:00"
         },
         {
+            "name": "dreamfactory/df-exporter-prometheus",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/df-exporter-prometheus.git",
+                "reference": "b45e277082f1ead5e8131b44dc346191e948bf69"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-exporter-prometheus/zipball/b45e277082f1ead5e8131b44dc346191e948bf69",
+                "reference": "b45e277082f1ead5e8131b44dc346191e948bf69",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/df-core": "~0.22",
+                "dreamfactory/df-system": "~0.5",
+                "ext-json": "*",
+                "predis/predis": "1.1.*",
+                "promphp/prometheus_client_php": "2.2.*",
+                "spatie/laravel-http-logger": "^1.1"
+            },
+            "require-dev": {
+                "filp/whoops": "~2.0",
+                "phpunit/phpunit": "~7.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "DreamFactory\\Core\\DreamFactoryPrometheusExporter\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\Core\\DreamFactoryPrometheusExporter\\": "src/"
+                },
+                "classmap": [
+                    "src/Utility"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "DreamFactory Team",
+                    "email": "code@dreamfactory.com"
+                }
+            ],
+            "description": "DreamFactory(tm) Metrics Exporter for Prometheus",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "dreamfactory",
+                "exporter",
+                "prometheus"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/df-skeleton/issues",
+                "source": "https://github.com/dreamfactorysoftware/df-skeleton",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2021-09-10T16:48:34+00:00"
+        },
+        {
             "name": "dreamfactory/df-file",
             "version": "dev-php81",
             "source": {
@@ -1524,6 +1594,57 @@
             "time": "2022-11-18T11:52:56+00:00"
         },
         {
+            "name": "dreamfactory/df-filemanager-app",
+            "version": "0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/df-filemanager-app.git",
+                "reference": "0c0e9964bc4119de82e9fb8aaefbcd468b89bd78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-filemanager-app/zipball/0c0e9964bc4119de82e9fb8aaefbcd468b89bd78",
+                "reference": "0c0e9964bc4119de82e9fb8aaefbcd468b89bd78",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/installer": "*"
+            },
+            "type": "dreamfactory-app",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.3.x-dev"
+                },
+                "installer-name": "filemanager"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "DreamFactory Software, Inc.",
+                    "email": "dspsupport@dreamfactory.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "DreamFactory(tm) File Manager",
+            "homepage": "https://github.com/dreamfactorysoftware/df-filemanager-app/",
+            "keywords": [
+                "api",
+                "dreamfactory",
+                "file manager",
+                "rest"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/df-filemanager-app/issues",
+                "source": "https://github.com/dreamfactorysoftware/df-filemanager-app",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2020-05-15T13:18:06+00:00"
+        },
+        {
             "name": "dreamfactory/df-firebird",
             "version": "dev-php81",
             "source": {
@@ -1594,12 +1715,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-git.git",
-                "reference": "8b428d6c4bf4d88539fd271d58b7694fe8c85e78"
+                "reference": "3ed1a82da6474cba1da426355c996002f39ccfde"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-git/zipball/8b428d6c4bf4d88539fd271d58b7694fe8c85e78",
-                "reference": "8b428d6c4bf4d88539fd271d58b7694fe8c85e78",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-git/zipball/3ed1a82da6474cba1da426355c996002f39ccfde",
+                "reference": "3ed1a82da6474cba1da426355c996002f39ccfde",
                 "shasum": ""
             },
             "require": {
@@ -1658,7 +1779,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-git",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-22T18:03:08+00:00"
+            "time": "2022-11-24T14:22:52+00:00"
         },
         {
             "name": "dreamfactory/df-graphql",
@@ -6151,6 +6272,72 @@
             "time": "2022-01-05T17:46:08+00:00"
         },
         {
+            "name": "promphp/prometheus_client_php",
+            "version": "v2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PromPHP/prometheus_client_php.git",
+                "reference": "5d27b6d84900d9b3208b5b6bf88d10ed0dc7a154"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PromPHP/prometheus_client_php/zipball/5d27b6d84900d9b3208b5b6bf88d10ed0dc7a154",
+                "reference": "5d27b6d84900d9b3208b5b6bf88d10ed0dc7a154",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.2|^8.0",
+                "symfony/polyfill-apcu": "^1.6"
+            },
+            "replace": {
+                "endclothing/prometheus_client_php": "*",
+                "jimdo/prometheus_client_php": "*",
+                "lkaemmerling/prometheus_client_php": "*"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "^6.3|^7.0",
+                "phpstan/extension-installer": "^1.0",
+                "phpstan/phpstan": "^0.12.50",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "phpstan/phpstan-strict-rules": "^0.12.5",
+                "phpunit/phpunit": "^8.4|^9.4",
+                "squizlabs/php_codesniffer": "^3.5"
+            },
+            "suggest": {
+                "ext-apc": "Required if using APCu.",
+                "ext-redis": "Required if using Redis.",
+                "promphp/prometheus_push_gateway_php": "An easy client for using Prometheus PushGateway."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Prometheus\\": "src/Prometheus/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lukas Kämmerling",
+                    "email": "kontakt@lukas-kaemmerling.de"
+                }
+            ],
+            "description": "Prometheus instrumentation library for PHP applications.",
+            "support": {
+                "issues": "https://github.com/PromPHP/prometheus_client_php/issues",
+                "source": "https://github.com/PromPHP/prometheus_client_php/tree/v2.2.2"
+            },
+            "time": "2021-03-05T08:54:14+00:00"
+        },
+        {
             "name": "psr/cache",
             "version": "3.0.0",
             "source": {
@@ -8748,6 +8935,83 @@
                 }
             ],
             "time": "2022-02-25T11:15:52+00:00"
+        },
+        {
+            "name": "symfony/polyfill-apcu",
+            "version": "v1.27.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-apcu.git",
+                "reference": "6e7f6ed2168779a2b3927e606a9768860a8bdfa0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/6e7f6ed2168779a2b3927e606a9768860a8bdfa0",
+                "reference": "6e7f6ed2168779a2b3927e606a9768860a8bdfa0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-main": "1.27-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "Symfony\\Polyfill\\Apcu\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting apcu_* functions to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "apcu",
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "support": {
+                "source": "https://github.com/symfony/polyfill-apcu/tree/v1.27.0"
+            },
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
