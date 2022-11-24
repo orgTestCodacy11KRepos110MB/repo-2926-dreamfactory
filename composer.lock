@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d48b105eb4c9e9564529c8535bbce361",
+    "content-hash": "2917a41a1d2a8c2ef0ab33f4afbcb80a",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -991,6 +991,66 @@
             "time": "2022-09-10T18:51:20+00:00"
         },
         {
+            "name": "dreamfactory/azure-documentdb-php-sdk",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/azure-documentdb-php-sdk.git",
+                "reference": "73152d23284e9501332a307cfc3411cb3de57245"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/azure-documentdb-php-sdk/zipball/73152d23284e9501332a307cfc3411cb3de57245",
+                "reference": "73152d23284e9501332a307cfc3411cb3de57245",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\DocumentDb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
+                },
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
+                }
+            ],
+            "description": "A simple PHP SDK for Microsoft Azure DocumentDB.",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "azure",
+                "database",
+                "documentdb",
+                "nosql",
+                "rest"
+            ],
+            "support": {
+                "email": "support@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/azure-documentdb-php-sdk/issues",
+                "source": "https://github.com/dreamfactorysoftware/azure-documentdb-php-sdk",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2017-07-05T19:53:15+00:00"
+        },
+        {
             "name": "dreamfactory/df-admin-app",
             "version": "4.12.0",
             "source": {
@@ -1233,6 +1293,76 @@
             "time": "2022-11-08T14:07:05+00:00"
         },
         {
+            "name": "dreamfactory/df-azure",
+            "version": "dev-php81",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/df-azure.git",
+                "reference": "748d26e6b6e77580daa5ba6f06bc07459afaa6c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-azure/zipball/748d26e6b6e77580daa5ba6f06bc07459afaa6c1",
+                "reference": "748d26e6b6e77580daa5ba6f06bc07459afaa6c1",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/azure-documentdb-php-sdk": "~0.2.0",
+                "dreamfactory/df-database": "~0.11",
+                "dreamfactory/df-file": "~0.7",
+                "microsoft/azure-storage-blob": "~1.5.4",
+                "microsoft/azure-storage-common": "~1.5.2",
+                "microsoft/azure-storage-table": "~1.1.6"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.15.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "DreamFactory\\Core\\Azure\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\Core\\Azure\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
+                }
+            ],
+            "description": "Microsoft Azure package containing Azure services for the DreamFactory Platform 2.0.",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "azure",
+                "azure blob",
+                "azure table",
+                "dreamfactory",
+                "laravel",
+                "rest"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/df-azure/issues",
+                "source": "https://github.com/dreamfactorysoftware/df-azure",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2022-11-24T16:15:10+00:00"
+        },
+        {
             "name": "dreamfactory/df-core",
             "version": "dev-php81",
             "source": {
@@ -1452,16 +1582,16 @@
         },
         {
             "name": "dreamfactory/df-exporter-prometheus",
-            "version": "1.0.5",
+            "version": "dev-php81",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-exporter-prometheus.git",
-                "reference": "b45e277082f1ead5e8131b44dc346191e948bf69"
+                "reference": "0a5e4866989dad0f914de8d38e0f0cfaf8178302"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-exporter-prometheus/zipball/b45e277082f1ead5e8131b44dc346191e948bf69",
-                "reference": "b45e277082f1ead5e8131b44dc346191e948bf69",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-exporter-prometheus/zipball/0a5e4866989dad0f914de8d38e0f0cfaf8178302",
+                "reference": "0a5e4866989dad0f914de8d38e0f0cfaf8178302",
                 "shasum": ""
             },
             "require": {
@@ -1518,7 +1648,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-skeleton",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2021-09-10T16:48:34+00:00"
+            "time": "2022-11-24T14:46:58+00:00"
         },
         {
             "name": "dreamfactory/df-file",
@@ -4640,6 +4770,150 @@
                 }
             ],
             "time": "2022-01-23T19:13:35+00:00"
+        },
+        {
+            "name": "microsoft/azure-storage-blob",
+            "version": "1.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Azure/azure-storage-blob-php.git",
+                "reference": "1023ce1dbf062351a32ca5ec72ad1fd4a504f1bf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Azure/azure-storage-blob-php/zipball/1023ce1dbf062351a32ca5ec72ad1fd4a504f1bf",
+                "reference": "1023ce1dbf062351a32ca5ec72ad1fd4a504f1bf",
+                "shasum": ""
+            },
+            "require": {
+                "microsoft/azure-storage-common": "~1.5",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MicrosoftAzure\\Storage\\Blob\\": "src/Blob"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Azure Storage PHP Client Library",
+                    "email": "dmsh@microsoft.com"
+                }
+            ],
+            "description": "This project provides a set of PHP client libraries that make it easy to access Microsoft Azure Storage Blob APIs.",
+            "keywords": [
+                "azure",
+                "blob",
+                "php",
+                "sdk",
+                "storage"
+            ],
+            "support": {
+                "issues": "https://github.com/Azure/azure-storage-blob-php/issues",
+                "source": "https://github.com/Azure/azure-storage-blob-php/tree/v1.5.4"
+            },
+            "time": "2022-09-02T02:13:06+00:00"
+        },
+        {
+            "name": "microsoft/azure-storage-common",
+            "version": "1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Azure/azure-storage-common-php.git",
+                "reference": "8ca7b1bf4c9ca7c663e75a02a0035b05b37196a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Azure/azure-storage-common-php/zipball/8ca7b1bf4c9ca7c663e75a02a0035b05b37196a0",
+                "reference": "8ca7b1bf4c9ca7c663e75a02a0035b05b37196a0",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "~6.0|^7.0",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MicrosoftAzure\\Storage\\Common\\": "src/Common"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Azure Storage PHP Client Library",
+                    "email": "dmsh@microsoft.com"
+                }
+            ],
+            "description": "This project provides a set of common code shared by Azure Storage Blob, Table, Queue and File PHP client libraries.",
+            "keywords": [
+                "azure",
+                "common",
+                "php",
+                "sdk",
+                "storage"
+            ],
+            "support": {
+                "issues": "https://github.com/Azure/azure-storage-common-php/issues",
+                "source": "https://github.com/Azure/azure-storage-common-php/tree/v1.5.2"
+            },
+            "time": "2021-10-09T03:03:47+00:00"
+        },
+        {
+            "name": "microsoft/azure-storage-table",
+            "version": "1.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Azure/azure-storage-table-php.git",
+                "reference": "6e3361c36a3f3ce0603faac58d27ab7c066539e1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Azure/azure-storage-table-php/zipball/6e3361c36a3f3ce0603faac58d27ab7c066539e1",
+                "reference": "6e3361c36a3f3ce0603faac58d27ab7c066539e1",
+                "shasum": ""
+            },
+            "require": {
+                "microsoft/azure-storage-common": "~1.5",
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MicrosoftAzure\\Storage\\Table\\": "src/Table"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Azure Storage PHP Client Library",
+                    "email": "dmsh@microsoft.com"
+                }
+            ],
+            "description": "This project provides a set of PHP client libraries that make it easy to access Microsoft Azure Storage Table APIs.",
+            "keywords": [
+                "azure",
+                "php",
+                "sdk",
+                "storage",
+                "table"
+            ],
+            "support": {
+                "issues": "https://github.com/Azure/azure-storage-table-php/issues",
+                "source": "https://github.com/Azure/azure-storage-table-php/tree/v1.1.6"
+            },
+            "time": "2022-09-02T02:14:16+00:00"
         },
         {
             "name": "mongodb/mongodb",
@@ -13810,6 +14084,12 @@
             "alias_normalized": "0.16.3.0"
         },
         {
+            "package": "dreamfactory/df-azure",
+            "version": "dev-php81",
+            "alias": "0.16.2",
+            "alias_normalized": "0.16.2.0"
+        },
+        {
             "package": "dreamfactory/df-core",
             "version": "dev-php81",
             "alias": "0.25.3",
@@ -13820,6 +14100,12 @@
             "version": "dev-php81",
             "alias": "0.10.2",
             "alias_normalized": "0.10.2.0"
+        },
+        {
+            "package": "dreamfactory/df-exporter-prometheus",
+            "version": "dev-php81",
+            "alias": "1.0.5",
+            "alias_normalized": "1.0.5.0"
         },
         {
             "package": "dreamfactory/df-file",
@@ -13867,8 +14153,10 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "dreamfactory/df-aws": 20,
+        "dreamfactory/df-azure": 20,
         "dreamfactory/df-core": 20,
         "dreamfactory/df-email": 20,
+        "dreamfactory/df-exporter-prometheus": 20,
         "dreamfactory/df-file": 20,
         "dreamfactory/df-firebird": 20,
         "dreamfactory/df-git": 20,

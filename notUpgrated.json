@@ -1,5 +1,4 @@
 {
-  "dreamfactory/df-azure": "dev-php81 as 0.16.2",
   "dreamfactory/df-cache": "~0.12.2",
   "dreamfactory/df-cassandra": "~0.13.1",
   "dreamfactory/df-couchbase": "~0.11.1",
