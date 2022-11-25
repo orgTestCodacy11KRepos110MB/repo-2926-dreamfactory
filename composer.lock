@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2917a41a1d2a8c2ef0ab33f4afbcb80a",
+    "content-hash": "6041c522a4c3653b97d06a81d5d78363",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1361,6 +1361,71 @@
                 "wiki": "https://wiki.dreamfactory.com"
             },
             "time": "2022-11-24T16:15:10+00:00"
+        },
+        {
+            "name": "dreamfactory/df-cassandra",
+            "version": "0.13.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/df-cassandra.git",
+                "reference": "7e95d7068428dcab92b33a15a54c7d943df6ffab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-cassandra/zipball/7e95d7068428dcab92b33a15a54c7d943df6ffab",
+                "reference": "7e95d7068428dcab92b33a15a54c7d943df6ffab",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/df-database": "~0.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.12.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "DreamFactory\\Core\\Cassandra\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\Core\\Cassandra\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
+                }
+            ],
+            "description": "Cassandra database service for DreamFactory Platform 2.0",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "api",
+                "cassandra",
+                "database",
+                "dreamfactory",
+                "nosql",
+                "rest"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/df-cassandra/issues",
+                "source": "https://github.com/dreamfactorysoftware/df-cassandra",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2021-11-10T16:21:37+00:00"
         },
         {
             "name": "dreamfactory/df-core",
