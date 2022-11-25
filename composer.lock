@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6041c522a4c3653b97d06a81d5d78363",
+    "content-hash": "70071ff916722f1826cb0efe287c1bcd",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1363,6 +1363,73 @@
             "time": "2022-11-24T16:15:10+00:00"
         },
         {
+            "name": "dreamfactory/df-cache",
+            "version": "dev-php81",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/df-cache.git",
+                "reference": "4343877894a0e7f65a19c4eb86bb74bd7e746c43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-cache/zipball/4343877894a0e7f65a19c4eb86bb74bd7e746c43",
+                "reference": "4343877894a0e7f65a19c4eb86bb74bd7e746c43",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/df-core": "~0.25",
+                "php": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.11.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "DreamFactory\\Core\\Cache\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\Core\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
+                }
+            ],
+            "description": "Cache service for DreamFactory Platform 2.0",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "apc",
+                "api",
+                "cache",
+                "dreamfactory",
+                "memcache",
+                "redis",
+                "rest"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/df-cache/issues",
+                "source": "https://github.com/dreamfactorysoftware/df-cache",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2022-11-24T18:05:15+00:00"
+        },
+        {
             "name": "dreamfactory/df-cassandra",
             "version": "0.13.2",
             "source": {
@@ -1910,12 +1977,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-git.git",
-                "reference": "3ed1a82da6474cba1da426355c996002f39ccfde"
+                "reference": "c8ac1304bb558fdf24d01903061ea15e5b92b533"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-git/zipball/3ed1a82da6474cba1da426355c996002f39ccfde",
-                "reference": "3ed1a82da6474cba1da426355c996002f39ccfde",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-git/zipball/c8ac1304bb558fdf24d01903061ea15e5b92b533",
+                "reference": "c8ac1304bb558fdf24d01903061ea15e5b92b533",
                 "shasum": ""
             },
             "require": {
@@ -1974,7 +2041,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-git",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-24T14:22:52+00:00"
+            "time": "2022-11-25T10:51:22+00:00"
         },
         {
             "name": "dreamfactory/df-graphql",
@@ -14155,6 +14222,12 @@
             "alias_normalized": "0.16.2.0"
         },
         {
+            "package": "dreamfactory/df-cache",
+            "version": "dev-php81",
+            "alias": "0.12.2",
+            "alias_normalized": "0.12.2.0"
+        },
+        {
             "package": "dreamfactory/df-core",
             "version": "dev-php81",
             "alias": "0.25.3",
@@ -14219,6 +14292,7 @@
     "stability-flags": {
         "dreamfactory/df-aws": 20,
         "dreamfactory/df-azure": 20,
+        "dreamfactory/df-cache": 20,
         "dreamfactory/df-core": 20,
         "dreamfactory/df-email": 20,
         "dreamfactory/df-exporter-prometheus": 20,
