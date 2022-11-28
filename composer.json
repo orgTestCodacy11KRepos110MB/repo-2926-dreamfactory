@@ -37,6 +37,8 @@
     "dreamfactory/df-cache": "dev-php81 as 0.12.2", 
     "dreamfactory/df-cassandra": "~0.13.1",
     "dreamfactory/df-core": "dev-php81 as 0.25.3",
+    "dreamfactory/df-couchbase": "~0.11.1",
+    "dreamfactory/df-couchdb": "dev-php81 as 0.16.1",
     "dreamfactory/df-database": "0.11.3",
     "dreamfactory/df-email": "dev-php81 as 0.10.2",
     "dreamfactory/df-exporter-prometheus": "dev-php81 as 1.0.5",

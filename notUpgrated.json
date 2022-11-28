@@ -1,6 +1,4 @@
 {
-  "dreamfactory/df-couchbase": "~0.11.1",
-  "dreamfactory/df-couchdb": "~0.16.1",
   "dreamfactory/df-oauth": "dev-php81 as 0.16.1",
   "dreamfactory/df-rackspace": "~0.15.1"
 }

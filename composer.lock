@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "70071ff916722f1826cb0efe287c1bcd",
+    "content-hash": "acc3f73e18374adc87ad42ffed1f398e",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.247.2",
+            "version": "3.248.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c"
+                "reference": "69a49ff367447d9753c068326b4ac0d437a230dd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/00542e760d8464e0ee635f916841fdfbd1ceb95c",
-                "reference": "00542e760d8464e0ee635f916841fdfbd1ceb95c",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/69a49ff367447d9753c068326b4ac0d437a230dd",
+                "reference": "69a49ff367447d9753c068326b4ac0d437a230dd",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.247.2"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.248.0"
             },
-            "time": "2022-11-23T19:35:36+00:00"
+            "time": "2022-11-28T02:55:22+00:00"
         },
         {
             "name": "bitbucket/client",
@@ -1572,6 +1572,138 @@
                 "wiki": "https://wiki.dreamfactory.com"
             },
             "time": "2022-11-07T15:15:54+00:00"
+        },
+        {
+            "name": "dreamfactory/df-couchbase",
+            "version": "0.11.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/df-couchbase.git",
+                "reference": "5a2687d7190b300b838eaf9c458de3c6f6664ca2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-couchbase/zipball/5a2687d7190b300b838eaf9c458de3c6f6664ca2",
+                "reference": "5a2687d7190b300b838eaf9c458de3c6f6664ca2",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/df-database": "~0.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.10.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "DreamFactory\\Core\\Couchbase\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\Core\\Couchbase\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
+                }
+            ],
+            "description": "Couchbase database service for DreamFactory Platform 2.0",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "api",
+                "couchbase",
+                "database",
+                "dreamfactory",
+                "nosql",
+                "rest"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/df-couchbase/issues",
+                "source": "https://github.com/dreamfactorysoftware/df-couchbase",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2020-05-18T10:26:16+00:00"
+        },
+        {
+            "name": "dreamfactory/df-couchdb",
+            "version": "dev-php81",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dreamfactorysoftware/df-couchdb.git",
+                "reference": "f60f768de75b5570b71ffc5b0c1358dab1e14d67"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-couchdb/zipball/f60f768de75b5570b71ffc5b0c1358dab1e14d67",
+                "reference": "f60f768de75b5570b71ffc5b0c1358dab1e14d67",
+                "shasum": ""
+            },
+            "require": {
+                "dreamfactory/df-database": "~0.11",
+                "php-on-couch/php-on-couch": "^4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "0.15.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "DreamFactory\\Core\\CouchDb\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "DreamFactory\\Core\\CouchDb\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Arif Islam",
+                    "email": "arifislam@dreamfactory.com"
+                },
+                {
+                    "name": "Lee Hicks",
+                    "email": "leehicks@dreamfactory.com"
+                }
+            ],
+            "description": "The DreamFactory(tm) CouchDB Service.",
+            "homepage": "https://www.dreamfactory.com/",
+            "keywords": [
+                "api",
+                "couchdb",
+                "database",
+                "db",
+                "dreamfactory",
+                "nosql",
+                "rest"
+            ],
+            "support": {
+                "email": "dspsupport@dreamfactory.com",
+                "issues": "https://github.com/dreamfactorysoftware/df-couchdb/issues",
+                "source": "https://github.com/dreamfactorysoftware/df-couchdb",
+                "wiki": "https://wiki.dreamfactory.com"
+            },
+            "time": "2022-11-28T08:48:03+00:00"
         },
         {
             "name": "dreamfactory/df-database",
@@ -4483,16 +4615,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.10.3",
+            "version": "3.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "8013fb046c6a244b2b1b75cc95d732ed6bcdeb8a"
+                "reference": "a7790f3dd1b27af81d380e6b2afa77c16ab7e181"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/8013fb046c6a244b2b1b75cc95d732ed6bcdeb8a",
-                "reference": "8013fb046c6a244b2b1b75cc95d732ed6bcdeb8a",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/a7790f3dd1b27af81d380e6b2afa77c16ab7e181",
+                "reference": "a7790f3dd1b27af81d380e6b2afa77c16ab7e181",
                 "shasum": ""
             },
             "require": {
@@ -4554,7 +4686,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.10.3"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.10.4"
             },
             "funding": [
                 {
@@ -4570,7 +4702,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-11-14T10:42:43+00:00"
+            "time": "2022-11-26T19:48:01+00:00"
         },
         {
             "name": "league/flysystem-ftp",
@@ -4702,16 +4834,16 @@
         },
         {
             "name": "league/flysystem-webdav",
-            "version": "3.7.0",
+            "version": "3.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-webdav.git",
-                "reference": "e4a0d9b3036b7e109f3fad222d451ae37f892396"
+                "reference": "e02117a9b2d96f43bbd87d9f8122c662a24d397a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-webdav/zipball/e4a0d9b3036b7e109f3fad222d451ae37f892396",
-                "reference": "e4a0d9b3036b7e109f3fad222d451ae37f892396",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-webdav/zipball/e02117a9b2d96f43bbd87d9f8122c662a24d397a",
+                "reference": "e02117a9b2d96f43bbd87d9f8122c662a24d397a",
                 "shasum": ""
             },
             "require": {
@@ -4745,7 +4877,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem-webdav/issues",
-                "source": "https://github.com/thephpleague/flysystem-webdav/tree/3.7.0"
+                "source": "https://github.com/thephpleague/flysystem-webdav/tree/3.10.4"
             },
             "funding": [
                 {
@@ -4761,7 +4893,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-17T07:23:36+00:00"
+            "time": "2022-11-11T05:38:06+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -6427,6 +6559,75 @@
             "time": "2020-07-07T09:29:14+00:00"
         },
         {
+            "name": "php-on-couch/php-on-couch",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-on-Couch/PHP-on-Couch.git",
+                "reference": "ccd673370109cb30c97dedb77d3d1103f29b401e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-on-Couch/PHP-on-Couch/zipball/ccd673370109cb30c97dedb77d3d1103f29b401e",
+                "reference": "ccd673370109cb30c97dedb77d3d1103f29b401e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpcheckstyle/phpcheckstyle": "*",
+                "phpunit/phpunit": "5.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PHPOnCouch\\": "src/",
+                    "PHPOnCouch\\Adapter\\": "src/Adapter/",
+                    "PHPOnCouch\\Exceptions\\": "src/Exceptions/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bailly",
+                    "email": "mickael.bailly@free.fr",
+                    "homepage": "https://github.com/dready92/",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Clemens Sahs",
+                    "email": "clemens.sahs@slides-worker.org",
+                    "homepage": "https://github.com/ClemensSahs",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Alexis Côté",
+                    "email": "alexiscote19@hotmail.com",
+                    "homepage": "https://popojargo.github.io/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CouchDB NoSQL database access in PHP",
+            "homepage": "https://github.com/PHP-on-Couch/PHP-on-Couch",
+            "keywords": [
+                "apache",
+                "couch",
+                "couchdb",
+                "db",
+                "driver",
+                "nosql"
+            ],
+            "support": {
+                "issues": "https://github.com/PHP-on-Couch/PHP-on-Couch/issues",
+                "source": "https://github.com/PHP-on-Couch/PHP-on-Couch/tree/4.0.0"
+            },
+            "time": "2022-01-31T01:45:17+00:00"
+        },
+        {
             "name": "phpoption/phpoption",
             "version": "1.9.0",
             "source": {
@@ -6791,6 +6992,54 @@
                 "source": "https://github.com/php-fig/cache/tree/3.0.0"
             },
             "time": "2021-02-03T23:26:27+00:00"
+        },
+        {
+            "name": "psr/clock",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/clock.git",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/clock/zipball/e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "reference": "e41a24703d4560fd0acb709162f73b8adfc3aa0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0 || ^8.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Clock\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for reading the clock.",
+            "homepage": "https://github.com/php-fig/clock",
+            "keywords": [
+                "clock",
+                "now",
+                "psr",
+                "psr-20",
+                "time"
+            ],
+            "support": {
+                "issues": "https://github.com/php-fig/clock/issues",
+                "source": "https://github.com/php-fig/clock/tree/1.0.0"
+            },
+            "time": "2022-11-25T14:36:26+00:00"
         },
         {
             "name": "psr/container",
@@ -7959,20 +8208,21 @@
         },
         {
             "name": "stella-maris/clock",
-            "version": "0.1.6",
+            "version": "0.1.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/stella-maris-solutions/clock.git",
-                "reference": "a94228dac03c9a8411198ce8c8dacbbe99c930c3"
+                "reference": "fa23ce16019289a18bb3446fdecd45befcdd94f8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stella-maris-solutions/clock/zipball/a94228dac03c9a8411198ce8c8dacbbe99c930c3",
-                "reference": "a94228dac03c9a8411198ce8c8dacbbe99c930c3",
+                "url": "https://api.github.com/repos/stella-maris-solutions/clock/zipball/fa23ce16019289a18bb3446fdecd45befcdd94f8",
+                "reference": "fa23ce16019289a18bb3446fdecd45befcdd94f8",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0|^8.0"
+                "php": "^7.0|^8.0",
+                "psr/clock": "^1.0"
             },
             "type": "library",
             "autoload": {
@@ -7999,10 +8249,9 @@
                 "psr20"
             ],
             "support": {
-                "issues": "https://github.com/stella-maris-solutions/clock/issues",
-                "source": "https://github.com/stella-maris-solutions/clock/tree/0.1.6"
+                "source": "https://github.com/stella-maris-solutions/clock/tree/0.1.7"
             },
-            "time": "2022-09-27T15:03:11+00:00"
+            "time": "2022-11-25T16:15:06+00:00"
         },
         {
             "name": "symfony/cache",
@@ -14234,6 +14483,12 @@
             "alias_normalized": "0.25.3.0"
         },
         {
+            "package": "dreamfactory/df-couchdb",
+            "version": "dev-php81",
+            "alias": "0.16.1",
+            "alias_normalized": "0.16.1.0"
+        },
+        {
             "package": "dreamfactory/df-email",
             "version": "dev-php81",
             "alias": "0.10.2",
@@ -14294,6 +14549,7 @@
         "dreamfactory/df-azure": 20,
         "dreamfactory/df-cache": 20,
         "dreamfactory/df-core": 20,
+        "dreamfactory/df-couchdb": 20,
         "dreamfactory/df-email": 20,
         "dreamfactory/df-exporter-prometheus": 20,
         "dreamfactory/df-file": 20,
