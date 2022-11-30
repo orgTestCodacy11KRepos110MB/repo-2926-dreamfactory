@@ -48,6 +48,7 @@
     "dreamfactory/df-git": "dev-php81 as 0.6.3",
     "dreamfactory/df-graphql": "dev-php81 as 0.4",
     "dreamfactory/df-mongo-logs": "dev-php81 as 1.1.2",
+    "dreamfactory/df-rackspace": "dev-DP-460 as 0.15.1",
     "dreamfactory/df-rws": "dev-php81 as 0.15.3",
     "dreamfactory/df-sqldb": "dev-php81 as 0.17.5",
     "dreamfactory/df-system": "~0.5.4",
