@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7aa4d3aa8cafc360645a4024e09de2cd",
+    "content-hash": "7810e626cfff0295346c5e2af610ee4b",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -2177,16 +2177,16 @@
         },
         {
             "name": "dreamfactory/df-graphql",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-graphql.git",
-                "reference": "f123ef055fc12f4a7a41a1e13adb470fa9bbecd4"
+                "reference": "0f540008d22b7361de61c57ab28f3818fd6cb045"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-graphql/zipball/f123ef055fc12f4a7a41a1e13adb470fa9bbecd4",
-                "reference": "f123ef055fc12f4a7a41a1e13adb470fa9bbecd4",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-graphql/zipball/0f540008d22b7361de61c57ab28f3818fd6cb045",
+                "reference": "0f540008d22b7361de61c57ab28f3818fd6cb045",
                 "shasum": ""
             },
             "require": {
@@ -2242,7 +2242,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-graphql",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-10-31T15:49:12+00:00"
+            "time": "2022-12-07T15:12:33+00:00"
         },
         {
             "name": "dreamfactory/df-mongo-logs",
@@ -15172,7 +15172,7 @@
         },
         {
             "package": "dreamfactory/df-graphql",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "alias": "0.4",
             "alias_normalized": "0.4.0.0"
         },

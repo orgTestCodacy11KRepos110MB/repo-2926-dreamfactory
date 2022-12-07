@@ -46,7 +46,7 @@
     "dreamfactory/df-filemanager-app": "~0.3.2",
     "dreamfactory/df-firebird": "dev-php81 as 0.8.1",
     "dreamfactory/df-git": "dev-DP-460 as 0.6.3",
-    "dreamfactory/df-graphql": "dev-php81 as 0.4",
+    "dreamfactory/df-graphql": "dev-DP-460 as 0.4",
     "dreamfactory/df-mongo-logs": "dev-DP-460 as 1.1.2",
     "dreamfactory/df-oauth": "dev-DP-460 as 0.16.1",
     "dreamfactory/df-rackspace": "dev-DP-460 as 0.15.1",
