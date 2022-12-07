@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f2206d9be07b8b78e778aa95060579d5",
+    "content-hash": "7aa4d3aa8cafc360645a4024e09de2cd",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1920,12 +1920,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-file.git",
-                "reference": "b36baf6bf766673a1eea45abb2afe907d0de7fd5"
+                "reference": "15e1c36c7e712146a938a61a653926cfab53b6aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-file/zipball/b36baf6bf766673a1eea45abb2afe907d0de7fd5",
-                "reference": "b36baf6bf766673a1eea45abb2afe907d0de7fd5",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-file/zipball/15e1c36c7e712146a938a61a653926cfab53b6aa",
+                "reference": "15e1c36c7e712146a938a61a653926cfab53b6aa",
                 "shasum": ""
             },
             "require": {
@@ -1985,7 +1985,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-file",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-12-06T17:18:47+00:00"
+            "time": "2022-12-07T12:42:11+00:00"
         },
         {
             "name": "dreamfactory/df-filemanager-app",
@@ -2514,16 +2514,16 @@
         },
         {
             "name": "dreamfactory/df-sqldb",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-sqldb.git",
-                "reference": "e55e3722966b7f86303159bd22546f53d8db2f37"
+                "reference": "1cf25ecfe6d124727fec26b233a2dc59808aa4da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-sqldb/zipball/e55e3722966b7f86303159bd22546f53d8db2f37",
-                "reference": "e55e3722966b7f86303159bd22546f53d8db2f37",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-sqldb/zipball/1cf25ecfe6d124727fec26b233a2dc59808aa4da",
+                "reference": "1cf25ecfe6d124727fec26b233a2dc59808aa4da",
                 "shasum": ""
             },
             "require": {
@@ -2579,7 +2579,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-sqldb",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-02T08:01:23+00:00"
+            "time": "2022-12-07T15:02:49+00:00"
         },
         {
             "name": "dreamfactory/df-system",
@@ -15202,7 +15202,7 @@
         },
         {
             "package": "dreamfactory/df-sqldb",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "alias": "0.17.5",
             "alias_normalized": "0.17.5.0"
         }

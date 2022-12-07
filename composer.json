@@ -51,7 +51,7 @@
     "dreamfactory/df-oauth": "dev-DP-460 as 0.16.1",
     "dreamfactory/df-rackspace": "dev-DP-460 as 0.15.1",
     "dreamfactory/df-rws": "dev-DP-460 as 0.15.3",
-    "dreamfactory/df-sqldb": "dev-php81 as 0.17.5",
+    "dreamfactory/df-sqldb": "dev-DP-460 as 0.17.5",
     "dreamfactory/df-system": "~0.5.4",
     "dreamfactory/df-user": "~0.16.2",
     "fideloper/proxy": "^4.0",
