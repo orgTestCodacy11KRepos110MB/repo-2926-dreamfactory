@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7810e626cfff0295346c5e2af610ee4b",
+    "content-hash": "a29a557dd6d90fddcbc42467d032b22f",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.252.3",
+            "version": "3.252.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "badab73e791c38410756388968b151e0e395105a"
+                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/badab73e791c38410756388968b151e0e395105a",
-                "reference": "badab73e791c38410756388968b151e0e395105a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
+                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.3"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.4"
             },
-            "time": "2022-12-06T19:23:24+00:00"
+            "time": "2022-12-07T19:47:20+00:00"
         },
         {
             "name": "bitbucket/client",
@@ -1294,16 +1294,16 @@
         },
         {
             "name": "dreamfactory/df-azure",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-azure.git",
-                "reference": "748d26e6b6e77580daa5ba6f06bc07459afaa6c1"
+                "reference": "e84f531ad5534536f47b4b2eaacd5e3ab44ac6f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-azure/zipball/748d26e6b6e77580daa5ba6f06bc07459afaa6c1",
-                "reference": "748d26e6b6e77580daa5ba6f06bc07459afaa6c1",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-azure/zipball/e84f531ad5534536f47b4b2eaacd5e3ab44ac6f4",
+                "reference": "e84f531ad5534536f47b4b2eaacd5e3ab44ac6f4",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-azure",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-24T16:15:10+00:00"
+            "time": "2022-12-06T08:59:48+00:00"
         },
         {
             "name": "dreamfactory/df-cache",
@@ -1775,16 +1775,16 @@
         },
         {
             "name": "dreamfactory/df-email",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-email.git",
-                "reference": "3b5807035020ca8328578c3c9f066b76b319fcab"
+                "reference": "0ff962d78774dfe6b5da3253553af42a17b385bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-email/zipball/3b5807035020ca8328578c3c9f066b76b319fcab",
-                "reference": "3b5807035020ca8328578c3c9f066b76b319fcab",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-email/zipball/0ff962d78774dfe6b5da3253553af42a17b385bf",
+                "reference": "0ff962d78774dfe6b5da3253553af42a17b385bf",
                 "shasum": ""
             },
             "require": {
@@ -1842,7 +1842,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-email",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-17T07:53:34+00:00"
+            "time": "2022-12-05T09:11:11+00:00"
         },
         {
             "name": "dreamfactory/df-exporter-prometheus",
@@ -2040,16 +2040,16 @@
         },
         {
             "name": "dreamfactory/df-firebird",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-firebird.git",
-                "reference": "c2294a0c86acb389ef4472c5d13fb0f075e2d001"
+                "reference": "e99877e7b3966b4e4f3710b70c6cbf0182837da5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-firebird/zipball/c2294a0c86acb389ef4472c5d13fb0f075e2d001",
-                "reference": "c2294a0c86acb389ef4472c5d13fb0f075e2d001",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-firebird/zipball/e99877e7b3966b4e4f3710b70c6cbf0182837da5",
+                "reference": "e99877e7b3966b4e4f3710b70c6cbf0182837da5",
                 "shasum": ""
             },
             "require": {
@@ -2101,7 +2101,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-firebird",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-21T17:56:05+00:00"
+            "time": "2022-12-07T17:49:12+00:00"
         },
         {
             "name": "dreamfactory/df-git",
@@ -2181,12 +2181,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-graphql.git",
-                "reference": "0f540008d22b7361de61c57ab28f3818fd6cb045"
+                "reference": "a767c4dde494a0f929633fed93f6d72b59ca5904"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-graphql/zipball/0f540008d22b7361de61c57ab28f3818fd6cb045",
-                "reference": "0f540008d22b7361de61c57ab28f3818fd6cb045",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-graphql/zipball/a767c4dde494a0f929633fed93f6d72b59ca5904",
+                "reference": "a767c4dde494a0f929633fed93f6d72b59ca5904",
                 "shasum": ""
             },
             "require": {
@@ -2242,7 +2242,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-graphql",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-12-07T15:12:33+00:00"
+            "time": "2022-12-07T15:19:47+00:00"
         },
         {
             "name": "dreamfactory/df-mongo-logs",
@@ -15118,7 +15118,7 @@
         },
         {
             "package": "dreamfactory/df-azure",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "alias": "0.16.2",
             "alias_normalized": "0.16.2.0"
         },
@@ -15142,7 +15142,7 @@
         },
         {
             "package": "dreamfactory/df-email",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "alias": "0.10.2",
             "alias_normalized": "0.10.2.0"
         },
@@ -15160,7 +15160,7 @@
         },
         {
             "package": "dreamfactory/df-firebird",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "alias": "0.8.1",
             "alias_normalized": "0.8.1.0"
         },
