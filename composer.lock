@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a29a557dd6d90fddcbc42467d032b22f",
+    "content-hash": "10315eca0acba6dac59ff7a06b4a90e9",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -58,16 +58,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.252.4",
+            "version": "3.252.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b"
+                "reference": "105cae518931ae626693e99d2be2bffa0d13b6c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
-                "reference": "ce0b006b73c6ea78eb570aa3fcd838d0df34ec1b",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/105cae518931ae626693e99d2be2bffa0d13b6c7",
+                "reference": "105cae518931ae626693e99d2be2bffa0d13b6c7",
                 "shasum": ""
             },
             "require": {
@@ -146,9 +146,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.4"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.252.5"
             },
-            "time": "2022-12-07T19:47:20+00:00"
+            "time": "2022-12-08T19:22:15+00:00"
         },
         {
             "name": "bitbucket/client",
@@ -1431,16 +1431,16 @@
         },
         {
             "name": "dreamfactory/df-cassandra",
-            "version": "0.13.2",
+            "version": "dev-DP-460",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-cassandra.git",
-                "reference": "7e95d7068428dcab92b33a15a54c7d943df6ffab"
+                "reference": "8904b0c720303d2f9002133d583643838ec14d0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-cassandra/zipball/7e95d7068428dcab92b33a15a54c7d943df6ffab",
-                "reference": "7e95d7068428dcab92b33a15a54c7d943df6ffab",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-cassandra/zipball/8904b0c720303d2f9002133d583643838ec14d0d",
+                "reference": "8904b0c720303d2f9002133d583643838ec14d0d",
                 "shasum": ""
             },
             "require": {
@@ -1492,7 +1492,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-cassandra",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2021-11-10T16:21:37+00:00"
+            "time": "2022-12-09T16:23:15+00:00"
         },
         {
             "name": "dreamfactory/df-core",
@@ -1920,12 +1920,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-file.git",
-                "reference": "15e1c36c7e712146a938a61a653926cfab53b6aa"
+                "reference": "ea68ab865a85247e1f9cdbdb21c5e83c950609ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-file/zipball/15e1c36c7e712146a938a61a653926cfab53b6aa",
-                "reference": "15e1c36c7e712146a938a61a653926cfab53b6aa",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-file/zipball/ea68ab865a85247e1f9cdbdb21c5e83c950609ca",
+                "reference": "ea68ab865a85247e1f9cdbdb21c5e83c950609ca",
                 "shasum": ""
             },
             "require": {
@@ -1985,7 +1985,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-file",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-12-07T12:42:11+00:00"
+            "time": "2022-12-09T14:57:40+00:00"
         },
         {
             "name": "dreamfactory/df-filemanager-app",
@@ -13698,16 +13698,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.26",
+            "version": "9.5.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2"
+                "reference": "a2bc7ffdca99f92d959b3f2270529334030bba38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/851867efcbb6a1b992ec515c71cdcf20d895e9d2",
-                "reference": "851867efcbb6a1b992ec515c71cdcf20d895e9d2",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/a2bc7ffdca99f92d959b3f2270529334030bba38",
+                "reference": "a2bc7ffdca99f92d959b3f2270529334030bba38",
                 "shasum": ""
             },
             "require": {
@@ -13780,7 +13780,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.26"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.27"
             },
             "funding": [
                 {
@@ -13796,7 +13796,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-10-28T06:00:21+00:00"
+            "time": "2022-12-09T07:31:23+00:00"
         },
         {
             "name": "sebastian/cli-parser",
@@ -14970,16 +14970,16 @@
         },
         {
             "name": "spatie/laravel-ignition",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-ignition.git",
-                "reference": "2b79cf6ed40946b64ac6713d7d2da8a9d87f612b"
+                "reference": "d6e1e1ad93abe280abf41c33f8ea7647dfc0c233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/2b79cf6ed40946b64ac6713d7d2da8a9d87f612b",
-                "reference": "2b79cf6ed40946b64ac6713d7d2da8a9d87f612b",
+                "url": "https://api.github.com/repos/spatie/laravel-ignition/zipball/d6e1e1ad93abe280abf41c33f8ea7647dfc0c233",
+                "reference": "d6e1e1ad93abe280abf41c33f8ea7647dfc0c233",
                 "shasum": ""
             },
             "require": {
@@ -15056,7 +15056,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-10-26T17:39:54+00:00"
+            "time": "2022-12-08T15:31:38+00:00"
         },
         {
             "name": "theseer/tokenizer",
@@ -15127,6 +15127,12 @@
             "version": "dev-DP-460",
             "alias": "0.12.2",
             "alias_normalized": "0.12.2.0"
+        },
+        {
+            "package": "dreamfactory/df-cassandra",
+            "version": "dev-DP-460",
+            "alias": "0.13.1",
+            "alias_normalized": "0.13.1.0"
         },
         {
             "package": "dreamfactory/df-core",
@@ -15212,6 +15218,7 @@
         "dreamfactory/df-aws": 20,
         "dreamfactory/df-azure": 20,
         "dreamfactory/df-cache": 20,
+        "dreamfactory/df-cassandra": 20,
         "dreamfactory/df-core": 20,
         "dreamfactory/df-couchdb": 20,
         "dreamfactory/df-email": 20,
