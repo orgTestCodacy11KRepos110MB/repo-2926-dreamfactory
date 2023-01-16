@@ -54,6 +54,7 @@
     "dreamfactory/df-sqldb": "dev-DP-460 as 0.17.5",
     "dreamfactory/df-system": "~0.5.4",
     "dreamfactory/df-user": "~0.16.2",
+    "dreamfactory/php-webhdfs": "dev-DP-460 as 1.1.0",
     "fideloper/proxy": "^4.0",
     "laravel/framework": "^9.0",
     "laravel/helpers": "^1.1",
