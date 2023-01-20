@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "10315eca0acba6dac59ff7a06b4a90e9",
+    "content-hash": "f991b359f4ef2a8ed525ccfc85dbae07",
     "packages": [
         {
             "name": "aws/aws-crt-php",
@@ -1496,16 +1496,16 @@
         },
         {
             "name": "dreamfactory/df-core",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dreamfactorysoftware/df-core.git",
-                "reference": "9a90e19132e75a09cbf90494f5729a0b7b381f95"
+                "reference": "e68c4377cc20e227680e46bc3e7915912f6cbbff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dreamfactorysoftware/df-core/zipball/9a90e19132e75a09cbf90494f5729a0b7b381f95",
-                "reference": "9a90e19132e75a09cbf90494f5729a0b7b381f95",
+                "url": "https://api.github.com/repos/dreamfactorysoftware/df-core/zipball/e68c4377cc20e227680e46bc3e7915912f6cbbff",
+                "reference": "e68c4377cc20e227680e46bc3e7915912f6cbbff",
                 "shasum": ""
             },
             "require": {
@@ -1571,7 +1571,7 @@
                 "source": "https://github.com/dreamfactorysoftware/df-core",
                 "wiki": "https://wiki.dreamfactory.com"
             },
-            "time": "2022-11-07T15:15:54+00:00"
+            "time": "2023-01-20T12:20:26+00:00"
         },
         {
             "name": "dreamfactory/df-couchbase",
@@ -15136,7 +15136,7 @@
         },
         {
             "package": "dreamfactory/df-core",
-            "version": "dev-php81",
+            "version": "dev-DP-460",
             "alias": "0.25.3",
             "alias_normalized": "0.25.3.0"
         },
