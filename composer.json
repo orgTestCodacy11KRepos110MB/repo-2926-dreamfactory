@@ -42,7 +42,7 @@
     "dreamfactory/df-database": "0.11.3",
     "dreamfactory/df-email": "dev-DP-460 as 0.10.2",
     "dreamfactory/df-exporter-prometheus": "dev-DP-460 as 1.0.5",
-    "dreamfactory/df-file": "dev-DP-460 as 0.7.4",
+    "dreamfactory/df-file": "dev-DP-460 as 0.8",
     "dreamfactory/df-filemanager-app": "~0.3.2",
     "dreamfactory/df-firebird": "dev-DP-460 as 0.8.1",
     "dreamfactory/df-git": "dev-DP-460 as 0.6.3",
