@@ -10,7 +10,7 @@ TERM_COLS="$(tput cols)"
 ERROR_STRING="Installation error. Exiting"
 CURRENT_PATH=$(pwd)
 
-DEFAULT_PHP_VERSION="php7.4"
+DEFAULT_PHP_VERSION="php8.1"
 
 CURRENT_KERNEL=$(grep -w ID /etc/os-release | cut -d "=" -f 2 | tr -d '"')
 CURRENT_OS=$(grep -e VERSION_ID /etc/os-release | cut -d "=" -f 2 | cut -d "." -f 1 | tr -d '"')
@@ -84,8 +84,8 @@ fi
 #### Check Current OS is compatible with the installer ####
 case $CURRENT_KERNEL in
   ubuntu)
-    if ((CURRENT_OS != 18)) && ((CURRENT_OS != 20)); then
-      echo_with_color red "The installer only supports Ubuntu 18 and 20. Exiting...\n"
+    if ((CURRENT_OS != 20)) && ((CURRENT_OS != 22)); then
+      echo_with_color red "The installer only supports Ubuntu 20 and 22. Exiting...\n"
       exit 1
     fi 
     ;;
@@ -427,8 +427,6 @@ if (($? >= 1)); then
     else
       echo_with_color green "    Cassandra installed\n" >&5
     fi
-    cd "${CURRENT_PATH}" || exit
-    rm -rf /opt/cassandra
   fi
 fi
 
@@ -477,17 +475,17 @@ if (($? >= 1)); then
   echo_with_color green "    node installed\n" >&5
 fi
 
-### INSTALL PCS
-php -m | grep -E "^pcs"
-if (($? >= 1)); then
-  run_process "   Installing pcs" install_pcs
-  php -m | grep pcs
-  if (($? >= 1)); then
-    echo_with_color red "\nCould not install pcs extension." >&5
-  else
-    echo_with_color green "    pcs installed\n" >&5
-  fi
-fi
+# ### INSTALL PCS
+# php -m | grep -E "^pcs"
+# if (($? >= 1)); then
+#   run_process "   Installing pcs" install_pcs
+#   php -m | grep pcs
+#   if (($? >= 1)); then
+#     echo_with_color red "\nCould not install pcs extension." >&5
+#   else
+#     echo_with_color green "    pcs installed\n" >&5
+#   fi
+# fi
 
 ### INSTALL Snowlake
 if [[ $CURRENT_KERNEL == "debian" || $CURRENT_KERNEL == "ubuntu" ]]; then
