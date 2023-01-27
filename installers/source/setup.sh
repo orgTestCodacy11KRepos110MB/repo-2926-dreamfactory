@@ -138,6 +138,7 @@ print_centered "-" "-"
 
 if [[ $INSTALLATION_OPTIONS == *"1"* ]]; then
   ORACLE=TRUE
+  DEBUG=TRUE
   echo_with_color green "Oracle selected."
 fi
 
@@ -351,6 +352,7 @@ fi
 
 
 ### DRIVERS FOR ORACLE ( ONLY WITH KEY --with-oracle )
+# TODO add developer instant cli for header files detect
 php -m | grep -E "^oci8"
 if (($? >= 1)); then
   if [[ $ORACLE == TRUE ]]; then
@@ -362,7 +364,7 @@ if (($? >= 1)); then
     if [[ $CURRENT_KERNEL == "ubuntu" || $CURRENT_KERNEL == "debian" ]]; then
       unzip "$DRIVERS_PATH/instantclient-*.zip" -d /opt/oracle
     else
-      ls -f $DRIVERS_PATH/oracle-instantclient19.*.rpm
+      ls -f $DRIVERS_PATH/oracle-instantclient21.*.rpm
     fi
     if (($? == 0)); then
       run_process "   Drivers Found. Installing Oracle Drivers" install_oracle
