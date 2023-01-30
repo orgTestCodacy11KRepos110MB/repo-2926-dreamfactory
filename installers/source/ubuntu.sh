@@ -59,6 +59,7 @@ install_php () {
   apt-get update
 
   apt-get install -y ${PHP_VERSION}-common \
+    ${PHP_VERSION}-xml \
     ${PHP_VERSION}-cli \
     ${PHP_VERSION}-curl \
     ${PHP_VERSION}-mysqlnd \
@@ -372,10 +373,11 @@ install_igbinary () {
 }
 
 install_python2 () {
+    add-apt-repository -y universe
     apt install -y python2
     # Pip2 is not supported on ubuntu anymore. We have to get a script from the python package
     # authority as below
-    wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+    curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
     python2 get-pip.py
 }
 
@@ -529,7 +531,7 @@ install_mariadb () {
 
 add_mariadb_repo () {
     apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0xF1656F24C74CD1D8
-    add-apt-repository 'deb [arch=amd64,arm64,ppc64el] http://nyc2.mirrors.digitalocean.com/mariadb/repo/10.3/ubuntu focal main'
+    add-apt-repository -y 'deb [arch=amd64,arm64,ppc64el] http://nyc2.mirrors.digitalocean.com/mariadb/repo/10.3/ubuntu focal main'
 }
 
 clone_dreamfactory_repository () {

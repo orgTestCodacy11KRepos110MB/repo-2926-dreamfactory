@@ -138,7 +138,6 @@ print_centered "-" "-"
 
 if [[ $INSTALLATION_OPTIONS == *"1"* ]]; then
   ORACLE=TRUE
-  DEBUG=TRUE
   echo_with_color green "Oracle selected."
 fi
 
