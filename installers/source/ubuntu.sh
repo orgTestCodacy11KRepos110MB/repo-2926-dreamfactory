@@ -284,7 +284,7 @@ install_pdo_sqlsrv () {
 install_oracle () {
   apt install -y libaio1
   echo "/opt/oracle/instantclient_21_9" >/etc/ld.so.conf.d/oracle-instantclient.conf
-  printf "\n" | pecl install oci8-3.2.1
+  printf "instantclient,/opt/oracle/instantclient_21_9\n" | pecl install oci8-3.2.1
   ldconfig
   if (($? >= 1)); then
     echo_with_color red "\nOracle instant client installation error" >&5
